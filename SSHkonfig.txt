@@ -1,0 +1,32 @@
+enable
+
+clock set 6:9:13 1 April 1969
+
+configure  terminal
+
+interface vlan 1
+
+ip address 192.168.40.57 255.255.255.0
+
+no shutdown
+
+exit
+
+hostname SW-BO
+
+ip domain-name amit.akarok
+
+crypto key generate rsa
+1024
+
+ip ssh version 2
+
+username oli privilege 15 password wsw
+
+line vty 0 15
+transport input ssh
+login local
+
+
+
+
