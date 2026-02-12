@@ -1,6 +1,6 @@
 enable
 
-clock set 6:9:13 1 April 1969
+clock set 6:9:13 1 April 2035
 
 configure  terminal
 
