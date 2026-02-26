@@ -20,7 +20,7 @@ vlanparancsok = [
 
 def vlanok(sshkapcs):
     sshkapcs.send_config_set(vlanparancsok)
-
+    
 
 # ---------------------------
 # PROGRAM
